@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login functionality (Invalid data)"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.364">
+  <properties />
+  
+  
+            <testcase name="loginInvalid" time="0.944" classname="zeroBankTests.LoginInvalid" />
+                <testcase name="loginInvalid" time="0.831" classname="zeroBankTests.LoginInvalid" />
+                <testcase name="loginInvalid" time="0.859" classname="zeroBankTests.LoginInvalid" />
+                <testcase name="loginInvalid" time="0.863" classname="zeroBankTests.LoginInvalid" />
+                <testcase name="loginInvalid" time="0.867" classname="zeroBankTests.LoginInvalid" />
+      
+</testsuite>

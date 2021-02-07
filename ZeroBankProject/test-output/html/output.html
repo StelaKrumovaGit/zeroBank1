@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Log Output</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+  </head>
+<body>
+  <h1>Log Output</h1>
+  <p>
+    Combined output from all calls to the log methods of the <a href="http://testng.org/javadocs/org/testng/Reporter.html">TestNG Reporter</a>.    
+  </p>
+
+  <div id="log">
+                  Suite Start : LoginSuite
+                        Test  detected: Login functionality (Valid data)
+                        Class detected: zeroBankTests.LoginValid
+                        Test  detected: Login functionality (Invalid data)
+                        Class detected: zeroBankTests.LoginInvalid
+                        Test  detected: Account Summary Tests 
+                        Class detected: zeroBankTests.AccountSummaryCreditCardAccounts
+                        
+                        Login functionality (Valid data) Starts
+                        chrome is Initialised
+                        Successfully opened url 'http://zero.webappsecurity.com/'
+                        Starting test method:loginValid
+                        All elements from SignIn Page are Displayed
+                         Enter value : username
+                         Enter value : password
+                        All Elements on Account Summary Page are displayed
+                        All Elements on Account Summary Page are displayed
+                        loginValid is Passed
+                        Login functionality (Valid data) Finish
+                        Login functionality (Invalid data) Starts
+                        chrome is Initialised
+                        Successfully opened url 'http://zero.webappsecurity.com/'
+                        All elements from SignIn Page are Displayed
+                        Starting test method:loginInvalid
+                         Enter value : td
+                         Enter value : 1
+                        Text : Login and/or password are wrong. - is Verified
+                        loginInvalid is Passed
+                        Starting test method:loginInvalid
+                         Enter value :  
+                         Enter value : 
+                        Text : Login and/or password are wrong. - is Verified
+                        loginInvalid is Passed
+                        Starting test method:loginInvalid
+                         Enter value : username
+                         Enter value : _
+                        Text : Login and/or password are wrong. - is Verified
+                        loginInvalid is Passed
+                        Starting test method:loginInvalid
+                         Enter value : st**
+                         Enter value : password
+                        Text : Login and/or password are wrong. - is Verified
+                        loginInvalid is Passed
+                        Starting test method:loginInvalid
+                         Enter value : hyrgdasy
+                         Enter value : lgfykkzo
+                        Text : Login and/or password are wrong. - is Verified
+                        loginInvalid is Passed
+                        Login functionality (Invalid data) Finish
+                        Account Summary Tests  Starts
+                        chrome is Initialised
+                        Successfully opened url 'http://zero.webappsecurity.com/login.html'
+                        Starting test method:CreditCardVerfyValid
+                         Enter value : username
+                         Enter value : password
+                        All Elements on Account Summary Page are displayed
+                        All Elements on Account Summary Page are displayed
+                        VISA 4485-5368-3381-1879
+                        CreditCardVerfyValid is Passed
+                        Starting test method:CreditCardVerfyInvalid
+                        CreditCardVerfyInvalid is Failed
+                        Click to see Screenshot
+                        <a href=C:\Users\plame\eclipse-workspace\ZeroBankProject\screenshots\Sun_Feb_07_22_19_13_EET_2021.png></a>
+                        <br>  <img src='C:\Users\plame\eclipse-workspace\ZeroBankProject\screenshots\Sun_Feb_07_22_19_13_EET_2021.png' height='200' width='200' /><br>
+                        <a target="_blank" href=C:\Users\plame\eclipse-workspace\ZeroBankProject\screenshots\Sun_Feb_07_22_19_13_EET_2021.png>Screenshot</a>
+                        Account Summary Tests  Finish
+                        Driver quit
+                        Duration of Suite is : 48 sec.
+            </div>
+
+</body>
+</html>

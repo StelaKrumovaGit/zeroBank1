@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Suite Start : LoginSuite]]>
+    </line>
+    <line>
+      <![CDATA[Test  detected: Login functionality (Valid data)]]>
+    </line>
+    <line>
+      <![CDATA[Class detected: zeroBankTests.LoginValid]]>
+    </line>
+    <line>
+      <![CDATA[Test  detected: Login functionality (Invalid data)]]>
+    </line>
+    <line>
+      <![CDATA[Class detected: zeroBankTests.LoginInvalid]]>
+    </line>
+    <line>
+      <![CDATA[Test  detected: Account Summary Tests ]]>
+    </line>
+    <line>
+      <![CDATA[Class detected: zeroBankTests.AccountSummaryCreditCardAccounts]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Login functionality (Valid data) Starts]]>
+    </line>
+    <line>
+      <![CDATA[chrome is Initialised]]>
+    </line>
+    <line>
+      <![CDATA[Successfully opened url 'http://zero.webappsecurity.com/']]>
+    </line>
+    <line>
+      <![CDATA[Starting test method:loginValid]]>
+    </line>
+    <line>
+      <![CDATA[All elements from SignIn Page are Displayed]]>
+    </line>
+    <line>
+      <![CDATA[ Enter value : username]]>
+    </line>
+    <line>
+      <![CDATA[ Enter value : password]]>
+    </line>
+    <line>
+      <![CDATA[All Elements on Account Summary Page are displayed]]>
+    </line>
+    <line>
+      <![CDATA[All Elements on Account Summary Page are displayed]]>
+    </line>
+    <line>
+      <![CDATA[loginValid is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Login functionality (Valid data) Finish]]>
+    </line>
+    <line>
+      <![CDATA[Login functionality (Invalid data) Starts]]>
+    </line>
+    <line>
+      <![CDATA[chrome is Initialised]]>
+    </line>
+    <line>
+      <![CDATA[Successfully opened url 'http://zero.webappsecurity.com/']]>
+    </line>
+    <line>
+      <![CDATA[All elements from SignIn Page are Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Starting test method:loginInvalid]]>
+    </line>
+    <line>
+      <![CDATA[ Enter value : td]]>
+    </line>
+    <line>
+      <![CDATA[ Enter value : 1]]>
+    </line>
+    <line>
+      <![CDATA[Text : Login and/or password are wrong. - is Verified]]>
+    </line>
+    <line>
+      <![CDATA[loginInvalid is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Starting test method:loginInvalid]]>
+    </line>
+    <line>
+      <![CDATA[ Enter value :  ]]>
+    </line>
+    <line>
+      <![CDATA[ Enter value : ]]>
+    </line>
+    <line>
+      <![CDATA[Text : Login and/or password are wrong. - is Verified]]>
+    </line>
+    <line>
+      <![CDATA[loginInvalid is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Starting test method:loginInvalid]]>
+    </line>
+    <line>
+      <![CDATA[ Enter value : username]]>
+    </line>
+    <line>
+      <![CDATA[ Enter value : _]]>
+    </line>
+    <line>
+      <![CDATA[Text : Login and/or password are wrong. - is Verified]]>
+    </line>
+    <line>
+      <![CDATA[loginInvalid is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Starting test method:loginInvalid]]>
+    </line>
+    <line>
+      <![CDATA[ Enter value : st**]]>
+    </line>
+    <line>
+      <![CDATA[ Enter value : password]]>
+    </line>
+    <line>
+      <![CDATA[Text : Login and/or password are wrong. - is Verified]]>
+    </line>
+    <line>
+      <![CDATA[loginInvalid is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Starting test method:loginInvalid]]>
+    </line>
+    <line>
+      <![CDATA[ Enter value : hyrgdasy]]>
+    </line>
+    <line>
+      <![CDATA[ Enter value : lgfykkzo]]>
+    </line>
+    <line>
+      <![CDATA[Text : Login and/or password are wrong. - is Verified]]>
+    </line>
+    <line>
+      <![CDATA[loginInvalid is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Login functionality (Invalid data) Finish]]>
+    </line>
+    <line>
+      <![CDATA[Account Summary Tests  Starts]]>
+    </line>
+    <line>
+      <![CDATA[chrome is Initialised]]>
+    </line>
+    <line>
+      <![CDATA[Successfully opened url 'http://zero.webappsecurity.com/login.html']]>
+    </line>
+    <line>
+      <![CDATA[Starting test method:CreditCardVerfyValid]]>
+    </line>
+    <line>
+      <![CDATA[ Enter value : username]]>
+    </line>
+    <line>
+      <![CDATA[ Enter value : password]]>
+    </line>
+    <line>
+      <![CDATA[All Elements on Account Summary Page are displayed]]>
+    </line>
+    <line>
+      <![CDATA[All Elements on Account Summary Page are displayed]]>
+    </line>
+    <line>
+      <![CDATA[VISA 4485-5368-3381-1879]]>
+    </line>
+    <line>
+      <![CDATA[CreditCardVerfyValid is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Starting test method:CreditCardVerfyInvalid]]>
+    </line>
+    <line>
+      <![CDATA[CreditCardVerfyInvalid is Failed]]>
+    </line>
+    <line>
+      <![CDATA[Click to see Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a href=C:\Users\plame\eclipse-workspace\ZeroBankProject\screenshots\Sun_Feb_07_22_19_13_EET_2021.png></a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>  <img src='C:\Users\plame\eclipse-workspace\ZeroBankProject\screenshots\Sun_Feb_07_22_19_13_EET_2021.png' height='200' width='200' /><br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=C:\Users\plame\eclipse-workspace\ZeroBankProject\screenshots\Sun_Feb_07_22_19_13_EET_2021.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Account Summary Tests  Finish]]>
+    </line>
+    <line>
+      <![CDATA[Driver quit]]>
+    </line>
+    <line>
+      <![CDATA[Duration of Suite is : 48 sec.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-02-07T22:18:26 EET" name="LoginSuite" finished-at="2021-02-07T22:19:15 EET" duration-ms="48808">
+    <groups>
+    </groups>
+    <test started-at="2021-02-07T22:18:26 EET" name="Login functionality (Valid data)" finished-at="2021-02-07T22:18:43 EET" duration-ms="16308">
+      <class name="zeroBankTests.LoginValid">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:zeroBankTests.LoginValid@66ea810]" started-at="2021-02-07T22:18:26 EET" name="beforeClass" finished-at="2021-02-07T22:18:37 EET" duration-ms="10102" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[chrome is Initialised]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:zeroBankTests.LoginValid@66ea810]" started-at="2021-02-07T22:18:37 EET" name="setUp" finished-at="2021-02-07T22:18:38 EET" duration-ms="1241" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully opened url 'http://zero.webappsecurity.com/']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginValid(java.lang.String, java.lang.String)[pri:0, instance:zeroBankTests.LoginValid@66ea810]" started-at="2021-02-07T22:18:38 EET" name="loginValid" description="Navigate to SignIn &gt; Login Page,Verify all elements on SignIn and Login page exists,do Login and Assert success login" data-provider="myData" finished-at="2021-02-07T22:18:42 EET" duration-ms="3829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Starting test method:loginValid]]>
+            </line>
+            <line>
+              <![CDATA[All elements from SignIn Page are Displayed]]>
+            </line>
+            <line>
+              <![CDATA[ Enter value : username]]>
+            </line>
+            <line>
+              <![CDATA[ Enter value : password]]>
+            </line>
+            <line>
+              <![CDATA[All Elements on Account Summary Page are displayed]]>
+            </line>
+            <line>
+              <![CDATA[All Elements on Account Summary Page are displayed]]>
+            </line>
+            <line>
+              <![CDATA[loginValid is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginValid -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:zeroBankTests.LoginValid@66ea810]" started-at="2021-02-07T22:18:42 EET" name="afterTest" finished-at="2021-02-07T22:18:43 EET" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- zeroBankTests.LoginValid -->
+    </test> <!-- Login functionality (Valid data) -->
+    <test started-at="2021-02-07T22:18:43 EET" name="Login functionality (Invalid data)" finished-at="2021-02-07T22:18:59 EET" duration-ms="16637">
+      <class name="zeroBankTests.LoginInvalid">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:zeroBankTests.LoginInvalid@24959ca4]" started-at="2021-02-07T22:18:43 EET" name="beforeClass" finished-at="2021-02-07T22:18:52 EET" duration-ms="9445" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[chrome is Initialised]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="before()[pri:0, instance:zeroBankTests.LoginInvalid@24959ca4]" started-at="2021-02-07T22:18:52 EET" name="before" finished-at="2021-02-07T22:18:54 EET" duration-ms="1828" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully opened url 'http://zero.webappsecurity.com/']]>
+            </line>
+            <line>
+              <![CDATA[All elements from SignIn Page are Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="loginInvalid(java.lang.String, java.lang.String)[pri:0, instance:zeroBankTests.LoginInvalid@24959ca4]" started-at="2021-02-07T22:18:54 EET" name="loginInvalid" data-provider="myData" finished-at="2021-02-07T22:18:55 EET" duration-ms="944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[td]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Starting test method:loginInvalid]]>
+            </line>
+            <line>
+              <![CDATA[ Enter value : td]]>
+            </line>
+            <line>
+              <![CDATA[ Enter value : 1]]>
+            </line>
+            <line>
+              <![CDATA[Text : Login and/or password are wrong. - is Verified]]>
+            </line>
+            <line>
+              <![CDATA[loginInvalid is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginInvalid -->
+        <test-method signature="loginInvalid(java.lang.String, java.lang.String)[pri:0, instance:zeroBankTests.LoginInvalid@24959ca4]" started-at="2021-02-07T22:18:55 EET" name="loginInvalid" data-provider="myData" finished-at="2021-02-07T22:18:56 EET" duration-ms="831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Starting test method:loginInvalid]]>
+            </line>
+            <line>
+              <![CDATA[ Enter value :  ]]>
+            </line>
+            <line>
+              <![CDATA[ Enter value : ]]>
+            </line>
+            <line>
+              <![CDATA[Text : Login and/or password are wrong. - is Verified]]>
+            </line>
+            <line>
+              <![CDATA[loginInvalid is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginInvalid -->
+        <test-method signature="loginInvalid(java.lang.String, java.lang.String)[pri:0, instance:zeroBankTests.LoginInvalid@24959ca4]" started-at="2021-02-07T22:18:56 EET" name="loginInvalid" data-provider="myData" finished-at="2021-02-07T22:18:57 EET" duration-ms="859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[_]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Starting test method:loginInvalid]]>
+            </line>
+            <line>
+              <![CDATA[ Enter value : username]]>
+            </line>
+            <line>
+              <![CDATA[ Enter value : _]]>
+            </line>
+            <line>
+              <![CDATA[Text : Login and/or password are wrong. - is Verified]]>
+            </line>
+            <line>
+              <![CDATA[loginInvalid is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginInvalid -->
+        <test-method signature="loginInvalid(java.lang.String, java.lang.String)[pri:0, instance:zeroBankTests.LoginInvalid@24959ca4]" started-at="2021-02-07T22:18:57 EET" name="loginInvalid" data-provider="myData" finished-at="2021-02-07T22:18:58 EET" duration-ms="867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[st**]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Starting test method:loginInvalid]]>
+            </line>
+            <line>
+              <![CDATA[ Enter value : st**]]>
+            </line>
+            <line>
+              <![CDATA[ Enter value : password]]>
+            </line>
+            <line>
+              <![CDATA[Text : Login and/or password are wrong. - is Verified]]>
+            </line>
+            <line>
+              <![CDATA[loginInvalid is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginInvalid -->
+        <test-method signature="loginInvalid(java.lang.String, java.lang.String)[pri:0, instance:zeroBankTests.LoginInvalid@24959ca4]" started-at="2021-02-07T22:18:58 EET" name="loginInvalid" data-provider="myData" finished-at="2021-02-07T22:18:58 EET" duration-ms="863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hyrgdasy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lgfykkzo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Starting test method:loginInvalid]]>
+            </line>
+            <line>
+              <![CDATA[ Enter value : hyrgdasy]]>
+            </line>
+            <line>
+              <![CDATA[ Enter value : lgfykkzo]]>
+            </line>
+            <line>
+              <![CDATA[Text : Login and/or password are wrong. - is Verified]]>
+            </line>
+            <line>
+              <![CDATA[loginInvalid is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginInvalid -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:zeroBankTests.LoginInvalid@24959ca4]" started-at="2021-02-07T22:18:58 EET" name="afterTest" finished-at="2021-02-07T22:18:59 EET" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- zeroBankTests.LoginInvalid -->
+    </test> <!-- Login functionality (Invalid data) -->
+    <test started-at="2021-02-07T22:18:59 EET" name="Account Summary Tests " finished-at="2021-02-07T22:19:15 EET" duration-ms="15820">
+      <class name="zeroBankTests.AccountSummaryCreditCardAccounts">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:zeroBankTests.AccountSummaryCreditCardAccounts@7975d1d8]" started-at="2021-02-07T22:18:26 EET" name="beforeSuite" finished-at="2021-02-07T22:18:26 EET" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:zeroBankTests.AccountSummaryCreditCardAccounts@7975d1d8]" started-at="2021-02-07T22:18:59 EET" name="beforeClass" finished-at="2021-02-07T22:19:09 EET" duration-ms="9393" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[chrome is Initialised]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:zeroBankTests.AccountSummaryCreditCardAccounts@7975d1d8]" started-at="2021-02-07T22:19:09 EET" name="setUp" finished-at="2021-02-07T22:19:10 EET" duration-ms="1208" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully opened url 'http://zero.webappsecurity.com/login.html']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CreditCardVerfyValid(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:zeroBankTests.AccountSummaryCreditCardAccounts@7975d1d8]" started-at="2021-02-07T22:19:10 EET" name="CreditCardVerfyValid" description="Login to the applicationNavigate to Account Summary and verify in Credit Accounts &gt; Credit card Number" data-provider="myData" finished-at="2021-02-07T22:19:13 EET" duration-ms="3208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[VISA 4485-5368-3381-1879]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Starting test method:CreditCardVerfyValid]]>
+            </line>
+            <line>
+              <![CDATA[ Enter value : username]]>
+            </line>
+            <line>
+              <![CDATA[ Enter value : password]]>
+            </line>
+            <line>
+              <![CDATA[All Elements on Account Summary Page are displayed]]>
+            </line>
+            <line>
+              <![CDATA[All Elements on Account Summary Page are displayed]]>
+            </line>
+            <line>
+              <![CDATA[VISA 4485-5368-3381-1879]]>
+            </line>
+            <line>
+              <![CDATA[CreditCardVerfyValid is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreditCardVerfyValid -->
+        <test-method signature="CreditCardVerfyInvalid(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:zeroBankTests.AccountSummaryCreditCardAccounts@7975d1d8]" started-at="2021-02-07T22:19:13 EET" name="CreditCardVerfyInvalid" description="Login to the applicationNavigate to Account Summary and verify in Credit Accounts &gt; Credit card Numbertry to verify the Credit card details with invalid data" data-provider="myData" finished-at="2021-02-07T22:19:13 EET" duration-ms="40" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[VISA 4485-5368-3381-1111]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [VISA 4485-5368-3381-1111] but found [VISA 4485-5368-3381-1879]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [VISA 4485-5368-3381-1111] but found [VISA 4485-5368-3381-1879]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at zeroBankTests.AccountSummaryCreditCardAccounts.CreditCardVerfyInvalid(AccountSummaryCreditCardAccounts.java:80)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Starting test method:CreditCardVerfyInvalid]]>
+            </line>
+            <line>
+              <![CDATA[CreditCardVerfyInvalid is Failed]]>
+            </line>
+            <line>
+              <![CDATA[Click to see Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a href=C:\Users\plame\eclipse-workspace\ZeroBankProject\screenshots\Sun_Feb_07_22_19_13_EET_2021.png></a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>  <img src='C:\Users\plame\eclipse-workspace\ZeroBankProject\screenshots\Sun_Feb_07_22_19_13_EET_2021.png' height='200' width='200' /><br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=C:\Users\plame\eclipse-workspace\ZeroBankProject\screenshots\Sun_Feb_07_22_19_13_EET_2021.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreditCardVerfyInvalid -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:zeroBankTests.AccountSummaryCreditCardAccounts@7975d1d8]" started-at="2021-02-07T22:19:14 EET" name="afterTest" finished-at="2021-02-07T22:19:15 EET" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:zeroBankTests.AccountSummaryCreditCardAccounts@7975d1d8]" started-at="2021-02-07T22:19:15 EET" name="afterSuite" finished-at="2021-02-07T22:19:15 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver quit]]>
+            </line>
+            <line>
+              <![CDATA[Duration of Suite is : 48 sec.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- zeroBankTests.AccountSummaryCreditCardAccounts -->
+    </test> <!-- Account Summary Tests  -->
+  </suite> <!-- LoginSuite -->
+</testng-results>
