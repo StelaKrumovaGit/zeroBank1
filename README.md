@@ -12,6 +12,8 @@ package-ZeroBankTests - contains the test clasess
 
 tests should be runned from : \ZeroBankProject\Suites\LoginTestsSuite.xml
 
-to trigger the ReportNG
+to trigger the ReportNG reportin use :
 
-location of the report:  \ZeroBankProject\test-output\html\index.html
+\ZeroBankProject\Suites\LoginTestsSuite.xml
+
+Location of the ReportNG report after being generated: \ZeroBankProject\test-output\html\index.html
